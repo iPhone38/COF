@@ -1,4 +1,3 @@
-
 # COF (Chain-of-Focus) Visual Reasoning Project
 
 ## 📌 Overview
@@ -26,6 +25,10 @@ cd COF
 
 ```bash
 pip install -r requirements.txt
+
+为确保与 GPU 兼容，请安装支持 CUDA 的最新版本的 PyTorch、TorchVision 和 TorchAudio。即使已经安装了 PyTorch，您在运行 Web 应用程序时也可能会遇到问题，因此最好更新：
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
 ```
 
 ### 3. (Optional) Install with Mamba (faster than Conda)
